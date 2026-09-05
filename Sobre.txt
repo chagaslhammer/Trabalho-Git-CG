@@ -1,1 +1,4 @@
 						Documento sobre o Trabalho-git-gc
+
+
+Neste trabalho será feito um aplicativo simples de Calculadora feita em python, e serão mostradas parte por parte de como essa calculadora vai ganhar vida e como ela vai ficar no final.
