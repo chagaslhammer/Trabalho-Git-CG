@@ -37,3 +37,16 @@ def calculadora():
     opcao = input("Digite o número da operação: ")
 
 Nesta fase, criamos o meun da calculadora, permitindo que o usuário escolha qual operação deseja realizar.
+
+fase três: Recebendo os números.
+
+
+try:
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+except ValueError:
+    print("Erro: você precisa digitar números válidos.")
+    return
+
+
+Aqui adicionamos a entrada dos números que serão utilizados nas operações e uma validação para impedir que sejam inseridos valores inválidos.
