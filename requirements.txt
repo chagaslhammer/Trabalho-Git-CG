@@ -1,1 +1,6 @@
+# Dependencia do aplicativo:
+# | Dependencia | Licenca | Uso comercial |
+# | Rich        | MIT     | Sim            |
+# A distribuicao exige manter o aviso de copyright e o texto da licenca.
+# Licenca: https://github.com/Textualize/rich/blob/main/LICENSE
 rich

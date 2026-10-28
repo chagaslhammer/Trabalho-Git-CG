@@ -67,3 +67,42 @@ else:
 
 
 Nessa etapa verificamos a operação escoliha pelo usuário e executamos a operação correspondente, mostrando o resultado.
+
+obs: adicionamos também uma operação para caso seja feita uma divisão por 0, o app retorne com uma mensagem de erro.
+
+Exibição das orientações
+
+print("Calculadora simples em Python")
+print("Escolha a operação: +, -, *, /")
+
+op = input("Operação: ")
+x = float(input("Primeiro número: "))
+y = float(input("Segundo número: "))
+
+
+ Aqui o programa:
+
+Pede ao usuário que digite a operação desejada (+, -, *, /).
+
+Solicita dois números e converte para float (número decimal), garantindo que cálculos não fiquem restritos a inteiros.
+
+Decisão das funções:
+
+if op == "+":
+    print("Resultado:", soma(x, y))
+elif op == "-":
+    print("Resultado:", subtracao(x, y))
+elif op == "*":
+    print("Resultado:", multiplicacao(x, y))
+elif op == "/":
+    print("Resultado:", divisao(x, y))
+else:
+    print("Operação inválida")
+
+
+Esse bloco **decide qual função chamar** com base na operação escolhida:
+  - Se o usuário digitou `"+"`, chama a função `soma(x, y)`.
+  - Se digitou `"-"`, chama `subtracao(x, y)`.
+  - Se digitou `"*"`, chama `multiplicacao(x, y)`.
+  - Se digitou `"/"`, chama `divisao(x, y)`.
+  - Caso o usuário digite algo diferente, mostra `"Operação inválida"`.

@@ -1,3 +1,12 @@
 -r requirements.txt
+
+# Dependencias de desenvolvimento:
+# | Dependencia | Licenca | Uso comercial |
+# | pytest      | MIT     | Sim            |
+# | Ruff        | MIT     | Sim            |
+# A distribuicao exige manter o aviso de copyright e o texto da licenca.
+# Licencas:
+# https://github.com/pytest-dev/pytest/blob/main/LICENSE
+# https://github.com/astral-sh/ruff/blob/main/LICENSE
 pytest
 ruff
